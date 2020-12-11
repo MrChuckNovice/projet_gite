@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* FOND GRIS */
+.fond{
+    background-color: rgb(243, 243, 243);
+}
+
+/* DISPLAY BETWEEN */
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    color: rgb(233, 56, 60);
+}
+
+
+
+/* HEADER */
+
+/* IMAGE SAVOIE */
+.savoie{
+    margin: 1em;
+    margin-left : 2em;
+}
+
+/* BUTTON ADMIN */
+.button{
+    margin-top: 4em;
+    margin-right: 5em;
+}
+
+/* FORMULAIRE */
+.center{
+    display: flex;
+    justify-content: center;
+    padding-top: 20em;
+}
+
+/* FOND GITE */
+.fonds{
+    background-image: url("../image/fond.jpg");
+    background-size : cover;
+    padding-bottom: 24.8em;
+}
+
+/* TROISIEME BLOC */
+
+.display{
+    display: flex;
+}
+
+.critere{
+    margin: 2em
+}
+
+.titre{
+    text-align: center;
+    font-weight: 700;
+    padding: 0.5px;
+    font-size : 1.2em
+}
+
+.titre1{
+    font-weight : 700;
+}
+
+.padding{
+    padding : 1em
+}
+
+.margin{
+    margin-bottom: 1em
+}
+
+/* FOOTER */
+
+/* CONTACT */
+.contact{
+    text-align: center;
+    padding: 0.5em;
+}

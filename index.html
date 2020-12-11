@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/gite.css">
+    <title>Giteannecy</title>
+</head>
+<body>
+    <!-- DEBUT HEADER -->
+    <header>
+        <!-- 1ER BLOC -->
+        <div class="between fond">
+            <!-- LOGO HAUTE SAVOIE -->
+            <div class="savoie">
+                <img src="asset/image/savoie.png" height="100px" alt="logo de la savoie">
+            </div>
+            <!-- LOGO ANNECY GITE -->
+            <div class="savoie">
+                <img src="asset/image/Logo.png" height="100px" alt="Logo annecy gite">
+            </div>
+            <!-- BUTTON ADMIN -->
+            <div class="button">
+                <button  type="button">Connexion Administrateur</button>
+            </div>
+        </div>
+        <!-- FIN PREMIER BLOC -->
+    </header>    
+        <!-- DEUXIEME BLOC -->
+        <div class="fonds">
+            <!-- FORMULAIRE DE RECHERCHE -->
+            <div class="center">
+                <!-- INPUT DATE ARRIVER -->
+                <div>
+                    <input placeholder="arriver" type="date">
+                </div>
+                <!-- INPUT DATE DEPART -->
+                <div>
+                    <input placeholder="arriver" type="date">
+                </div>
+                <!-- LISTE DE SELECTION PERSONNES -->
+                <div>
+                    <select name="nombredepersonne" id="nombredepersonne">
+                        <option value="">Nombre de personne</option>
+                        <option value="1 personne">1 personne</option>
+                        <option value="2 personne">2 personnes</option>
+                        <option value="2 personne">3 personnes</option>
+                        <option value="2 personne">4+ personnes</option>
+                    </select>
+                </div>
+                <!-- LISTE DE SELECTION HEBERGEMENT -->
+                <div>
+                    <select name="hebergement" id="hebergement">
+                        <option value="">Hebergement</option>
+                        <option value="Chalet">Chalet</option>
+                        <option value="Villa">Villa</option>
+                        <option value="Chambre">Chambre</option>
+                        <option value="Maison">Maison</option>
+                        <option value="Appartement">Appartement</option>
+                    </select>
+                </div>
+                <!-- BUTTON RECHERCHER -->
+                <div>
+                    <button  type="button">Rechercher</button>
+                </div>
+            </div>
+            <!-- FIN FORMULAIRE DE RECHERCHE  -->
+        </div>
+        <!-- FIN DEUXIEME BLOC -->
+        <!-- TROISIEME BLOC -->
+        <div class="display">
+            <!-- BLOC CRITERE + -->
+            <div class="critere">
+                <!-- CRITERE+ -->
+                <div class="fond titre color margin">
+                    <p>Critère +</p>
+                </div>
+                <!-- NOMBRE DE CHAMBRE -->
+                <div class="fond">
+                    <div class="padding">
+                    <!-- TITRE CHAMBRE -->
+                        <div class="titre1 color">
+                            <p>NOMBRE DE CHAMBRE :</p>
+                        </div>
+                        <!-- 1 CHAMBRE -->
+                        <div>
+                            <input type="checkbox" id="1 chambre" name="chambre">
+                            <label for="1 chambre">1 chambre</label>
+                        </div>
+                        <!-- 2 CHAMBRE -->
+                        <div>
+                            <input type="checkbox" id="2 chambres" name="chambres">
+                            <label for="2 chambres">2 chambres</label>
+                        </div>
+                        <!-- 3 CHAMBRE -->
+                        <div>
+                            <input type="checkbox" id="3 chambres" name="chambres">
+                            <label for="3 chambres">3 chambres</label>
+                        </div>
+                        <!-- 4 + CHAMBRE  -->
+                        <div>
+                            <input type="checkbox" id="4 + chambres" name="chambres">
+                            <label for="4 + chambres">4 + chambres</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN NOMBRE DE CHAMBRES -->
+                <!-- NOMBRE DE PIECES -->
+                <div class="fond">
+                    <!-- TITRE PIECES -->
+                    <div>
+                        <p>NOMBRE DE PIECES :</p>
+                    </div>
+                    <!-- 1 PIECE -->
+                    <div>
+                        <input type="checkbox" id="1 piece" name="piece">
+                        <label for="1 piece">1 pieces</label>
+                    </div>
+                    <!-- 2 PIECES -->
+                    <div>
+                        <input type="checkbox" id="2 pieces" name="pieces">
+                        <label for="2 pieces">2 pieces</label>
+                    </div>
+                    <!-- 3 PIECES -->
+                    <div>
+                        <input type="checkbox" id="3 pieces" name="pieces">
+                        <label for="3 pieces">3 pieces</label>
+                    </div>
+                    <!-- 4 + PIECES  -->
+                    <div>
+                        <input type="checkbox" id="4 + pieces" name="pieces">
+                        <label for="4 + piece">4 + pieces</label>
+                    </div>
+                </div>
+                <!-- FIN NOMBRE DE PIECES -->
+                <!-- NOMBRE DE SALLE DE BAIN -->
+                <div class="fond">
+                    <!-- TITRE SALLE DE BAIN -->
+                    <div>
+                        <p>NOMBRE DE SALLE DE BAINS :</p>
+                    </div>
+                    <!-- 1 SALLE DE BAINS -->
+                    <div>
+                        <input type="checkbox" id="1 Salle de bain" name="Salle de bain">
+                        <label for="1 Salle de bain">1 Salle de bain</label>
+                    </div>
+                    <!-- 2 SALLE DE BAINS -->
+                    <div>
+                        <input type="checkbox" id="2 Salle de bains" name="Salle de bains">
+                        <label for="2 Salle de bains">2 Salle de bains</label>
+                    </div>
+                    <!-- 3 SALLE DE BAINS -->
+                    <div>
+                        <input type="checkbox" id="3 Salle de bains" name="Salle de bains">
+                        <label for="3 Salle de bains">3 Salle de bains</label>
+                    </div>
+                    <!-- 4 + SALLE DE BAINS  -->
+                    <div>
+                        <input type="checkbox" id="4 + Salle de bains" name="Salle de bains">
+                        <label for="4 + Salle de bains">4 + Salle de bains</label>
+                    </div>
+                </div>
+                <!-- FIN NOMBRE DE SALLE DE BAINS -->
+                <!-- NOMBRE DE PERSONNES -->
+                <div class="fond">
+                    <!-- TITRE PERSONNES -->
+                    <div>
+                        <p>NOMBRE DE PERSONNES :</p>
+                    </div>
+                    <!-- 1 PERSONNES -->
+                    <div>
+                        <input type="checkbox" id="1 Personne" name="Personne">
+                        <label for="1 Personne">1 Personne</label>
+                    </div>
+                    <!-- 2 PERSONNES -->
+                    <div>
+                        <input type="checkbox" id="2 Personnes" name="Personnes">
+                        <label for="2 Personnes">2 Personnes</label>
+                    </div>
+                    <!-- 3 PERSONNES -->
+                    <div>
+                        <input type="checkbox" id="3 Personnes" name="Personnes">
+                        <label for="3 Personnes">3 Personnes</label>
+                    </div>
+                    <!-- 4 + PERSONNES  -->
+                    <div>
+                        <input type="checkbox" id="4 + Personnes" name="Personnes">
+                        <label for="4 + Personnes">4 + Personnes</label>
+                    </div>  
+                </div>
+                <!-- PRIX -->
+                <div class="fond">
+                    <label for="Prix">Prix</label>
+                </div>
+                <!-- FIN PRIX -->
+                <!-- EQUIPEMENT -->
+                <div class="fond">
+                    <!-- TITRE EQUIPEMENT -->
+                    <div>
+                        <p>EQUIPEMENT :</p>
+                    </div>
+                    <!-- JARDIN -->
+                    <div>
+                        <input type="checkbox" id="Jardin" name="Jardin">
+                        <label for="Jardin">Jardin</label>
+                    </div>
+                    <!-- LAVE-LINGE -->
+                    <div>
+                        <input type="checkbox" id="Lave-Linge" name="Lave-Linge">
+                        <label for="Lave-Linge">Lave-Linge</label>
+                    </div>
+                    <!-- WIFI -->
+                    <div>
+                        <input type="checkbox" id="Wifi" name="Wifi">
+                        <label for="Wifi">Wifi</label>
+                    </div>
+                    <!-- MACHINE A RACLETTE  -->
+                    <div>
+                        <input type="checkbox" id="Machine à raclette" name="Machine à raclette">
+                        <label for="Machine à raclette">Machine à raclette</label>
+                    </div>  
+                </div>
+                <!-- FIN EQUIPEMENT -->
+                <!-- EQUIPEMENT BIEN ETRE -->
+                <div class="fond">
+                    <!-- TITRE EQUIPEMENT -->
+                    <div>
+                        <p>EQUIPEMENT BIEN ETRE:</p>
+                    </div>
+                    <!-- PISCINE -->
+                    <div>
+                        <input type="checkbox" id="Piscine" name="Piscine">
+                        <label for="Piscine">Piscine</label>
+                    </div>
+                    <!-- SPA -->
+                    <div>
+                        <input type="checkbox" id="Spa" name="Spa">
+                        <label for="Spa">Spa</label>
+                    </div>
+                    <!-- SAUNA -->
+                    <div>
+                        <input type="checkbox" id="Sauna" name="Sauna">
+                        <label for="Sauna">Sauna</label>
+                    </div>  
+                </div>
+                <!-- FIN EQUIPEMENT BIEN ETRE -->
+            </div>
+            <!-- FIN BLOC CRITERE -->
+            <!-- BLOCS CARD -->
+            <div >
+                <!-- LIGNE DE 2 CARDS -->
+                <div class="display">
+                    <div>
+                         <!-- IMAGE CHALET -->
+                        <div>
+                           <img src="asset/image/chalet.jpg" height="400px" alt="chalet">
+                        </div>
+                        <!-- PRIX -->
+                        <div>
+                           <p>430 euros/sem</p>  
+                        </div>
+                        <!-- DESCRIPTION -->
+                        <div>
+                           <p> 10 personne - Chalet</p>
+                           <p>Chalet Des Etoiles</p>
+                        </div>
+                        <!-- ADRESSE -->
+                        <div>
+                            <div>
+                              <img src="asset/image/lieux.png" height="25px" alt="lieux">  
+                            </div>
+                            <div>
+                                <p>5 route de chevinois - 74000 Annecy</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <!-- IMAGE CHALET -->
+                       <div>
+                          <img src="asset/image/chalet.jpg" height="400px" alt="chalet">
+                       </div>
+                       <!-- PRIX -->
+                       <div>
+                          <p>430 euros/sem</p>  
+                       </div>
+                       <!-- DESCRIPTION -->
+                       <div>
+                          <p> 10 personne - Chalet</p>
+                          <p>Chalet Des Etoiles</p>
+                       </div>
+                       <!-- ADRESSE -->
+                       <div>
+                           <div>
+                             <img src="asset/image/lieux.png" height="25px" alt="lieux">  
+                           </div>
+                           <div>
+                               <p>5 route de chevinois - 74000 Annecy</p>
+                           </div> 
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="fond">
+            <div class="contact">
+                <div>
+            <p>Contact</p>
+            </div>
+            <p>Tél : 06 45 79 58 63</p>
+            <p>Mail : giteannecy@gmail.com</p>
+            <p>Mention légal</p>
+            </div>
+        </footer>
+        <!-- FIN FOOTER -->
+
+    
+</body>
+</html>
