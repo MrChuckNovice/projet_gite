@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.fond{
+    background-image: linear-gradient(to left, rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../image/montagne.png");
+    background-size: cover;
+    padding-bottom: 46em;
+}
+
+.connexion{
+    padding-top: 10em;
+}
+
+.formulaire{
+    margin-left: 40em;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 2rem;
+}
+.input input{
+    padding: 1em;
+    width: 30em;
+}
+
+.input label{
+    font-size: 3em;
+    color: white;
+    font-weight: 600;
+}
+
+
+button{
+    background-color: white;
+    padding: 1em;
+    width: 27em;
+    font-size: 1em;
+    font-weight: 600;
+}

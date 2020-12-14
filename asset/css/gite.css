@@ -3,9 +3,12 @@ body{
     font-family: 'Montserrat', sans-serif;;
 }
 
+p{
+    margin:0px
+}
 /* FOND GRIS */
 .fond{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(246, 245, 245);
 }
 
 /* DISPLAY BETWEEN */
@@ -14,10 +17,20 @@ body{
     justify-content: space-between;
 }
 
+/* COULEUR ROUGE */
 .color{
     color: rgb(233, 56, 60);
 }
 
+/* COULEUR MARRON */
+.color1{
+    color: rgb(138, 93, 54);
+}
+
+/* DISPLAY */
+.display{
+    display: flex;
+}
 
 
 /* HEADER */
@@ -30,8 +43,18 @@ body{
 
 /* BUTTON ADMIN */
 .button{
-    margin-top: 4em;
-    margin-right: 5em;
+    margin-top: 3em;
+    margin-right: 5em; 
+     
+}
+
+/* EXTHETIQUE BUTTON */
+.button button{
+    padding: 1em;
+    border-radius: 0px;
+    background-color: rgb(233,56,60);
+    color: white;
+    border: none 
 }
 
 /* FORMULAIRE */
@@ -48,34 +71,140 @@ body{
     padding-bottom: 24.8em;
 }
 
-/* TROISIEME BLOC */
-
-.display{
-    display: flex;
+/* PLACEMENT DE LA BARRE DE RECHERCHE */
+.carre{
+    margin-right: 2px;
 }
 
+/* INPUT DE LA BARRE DE RECHERCHE */
+.carre input{
+    padding: 2em;
+    border: none
+}
+
+/* EXTHETIQUE DES LISTE DE SELECTION */
+.carre select{
+    padding: 2.17em;
+    border: none
+}
+
+/* EXTHETIQUE BUTTON RECHERCHER*/
+.carre button{
+    padding: 2.17em;
+    background-color: rgb(233,56,60);
+    color: white;
+    border: none
+
+}
+
+/* TROISIEME BLOC */
+
+
+/* MARGIN PLACEMENT DE TOUT LE BLOC CRITERE */
 .critere{
     margin: 2em
 }
 
+/* ESTHETIQUE DU TITRE CRITERE */
 .titre{
     text-align: center;
     font-weight: 700;
-    padding: 0.5px;
+    padding: 8px;
     font-size : 1.2em
 }
 
+/* PETIT TITRE DES CRITERE */
 .titre1{
     font-weight : 700;
+    margin-bottom: 1rem;
+    font-size: 0.9rem
 }
 
+/* PADDING DANS LES BLOCS  */
 .padding{
-    padding : 1em
+    padding : 1em; 
+    margin-bottom: 1em;
 }
 
+/* MARGIN POUR FAIRE UN ESPACE ENTRE LES BLOCS EN BAS */
 .margin{
     margin-bottom: 1em
 }
+
+/* PRIX */
+.prix{
+    background-color: rgb(223, 56, 60);
+    width: 18em;
+    padding: 0.5em;
+    position: absolute;
+    margin-top: -4em
+}
+
+/* OMBRE PORTEE */
+.border{
+    box-shadow: 2px 2px 1px 1px rgba(172, 167, 167, 0.2);
+}
+
+/* ESTHETIQUE DU PRIX */
+.prix p{
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
+}
+
+/* ESTHETIQUE DE PERSONNE */
+.personne p {
+    text-align: center;
+    font-weight: 600;
+    font-size : 1.2em
+}
+
+/* ESTHETIQUE TITRE DU CHALET */
+.chalet p{
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.5em
+}
+
+/* ESTHETIQUE LIEUX*/
+
+.lieux{
+    margin-top: 0.5em;
+    justify-content: center;
+}
+
+/* ESTHETIQUE ADRESSE */
+.adresse{
+    margin-left: 0.5rem;
+    margin-top: 0.4em;
+}
+
+/* ESTHETIQUE DISPONIBLE */
+.disponible{
+    background-color: rgb(223, 56, 60);
+    width: 8em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    margin-left: 7.5em;
+    margin-top: 1em
+}
+
+/* DISPONBLE TITRE  */
+.disponible p{
+    text-align: center;
+    padding: 0.5em
+}
+
+/* PLACEMENT DES CARDS */
+.card{
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+/* FIN PREMIERE PAGE */
 
 /* FOOTER */
 
@@ -83,4 +212,26 @@ body{
 .contact{
     text-align: center;
     padding: 0.5em;
+    margin-top: 1rem
 }
+
+/* ESTHETIQUE MAIL TEL */
+.contact p {
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 1em
+
+}
+
+/* ESTHETIQUE CONTACT */
+.cont p{
+    font-weight: 600;
+    margin-bottom: 0.5em; 
+    font-size: 1.5em
+}
+
+/* ESTHETIQUE MENTION LEGAL */
+.mention{
+    font-size: 1em
+}
+

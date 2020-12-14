@@ -1,0 +1,251 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p{
+    margin:0px
+}
+/* FOND GRIS */
+.fond{
+    background-color: rgb(246, 245, 245);
+}
+
+/* DISPLAY BETWEEN */
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COULEUR ROUGE */
+.color{
+    color: rgb(233, 56, 60);
+}
+
+/* COULEUR MARRON */
+.color1{
+    color: rgb(138, 93, 54);
+}
+
+/* DISPLAY */
+.display{
+    display: flex;
+}
+
+
+/* HEADER */
+
+/* IMAGE SAVOIE */
+.savoie{
+    margin: 1em;
+    margin-left : 2em;
+}
+
+/* FIN HEADER */
+
+/* 1ER BLOC */
+/* BUTTON RETOUR */
+.button{
+    margin-top: 4em;
+    margin-right: 5em; 
+    margin-left: 5em; 
+}
+
+/* EXTHETIQUE BUTTON */
+.button button{
+    padding: 1em;
+    border-radius: 0px;
+    background-color: rgb(233,56,60);
+    color: white;
+    border: none 
+}
+
+/* MARGIN DU 1ER BLOC */
+.margin{
+    margin-left: 4.2em;
+    margin-top: 1em
+}
+
+/* ESTHETIQUE TITRE DU CHALET */
+.chalet p{
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.5em
+}
+
+/* ESTHETIQUE DE PERSONNE */
+.personne p {
+    text-align: center;
+    font-weight: 600;
+    font-size : 1.5em;
+    margin-top: 0.5em;
+    margin-left: 0.5rem
+}
+
+/* ESTHETIQUE ADRESSE */
+.adresse{
+    margin-left: 0.5rem;
+    margin-top: 0.4em;
+}
+
+/* MARGIN POUR LE LIEUX */
+.lieux{
+    margin-top: 0.5em;
+}
+
+/* JUSTIFICATION POUR PREMIER BLOC */
+.justify{
+    justify-content: space-around;
+    margin-top: 2em
+}
+
+/* FORMULAIRE */
+.formulaire{
+    margin-left: 2rem;
+}
+
+/* TITRE RESERVATION */
+.reservation{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* PLACEMENT DE LA BARRE DE RECHERCHE */
+.carre{
+    margin-right: 2px;
+    margin-bottom: 0.4em;
+}
+
+/* INPUT DE LA BARRE DE RECHERCHE */
+.carre input{
+    padding: 1em;
+    border: none;
+    width: 30rem;
+}
+
+/* EXTHETIQUE DES LISTE DE SELECTION */
+.carre select{
+    padding: 1em;
+    border: none;
+    width: 31.6rem;
+}
+
+/* EXTHETIQUE BUTTON RECHERCHER*/
+.carre button{
+    padding: 2.17em;
+    background-color: rgb(233,56,60);
+    color: white;
+    border: none
+
+}
+
+.padding{
+    padding: 2em
+}
+
+
+.button1 button{
+    padding: 1em;
+    width: 21.1em;
+    background-color: rgb(233,56,60);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.bloc{
+    margin-left: 4.4em;
+    margin-top: 2em;
+    width: 101.2em;
+}
+
+h2{
+    text-align: center;
+    color: rgb(233, 56, 60);
+    text-decoration: underline;
+    margin-top: 0em;
+}
+
+.description{
+    padding: 2rem;
+}
+
+.description p{
+    color: rgb(138, 93, 54);
+}
+
+.critere{
+    margin-left: 2em;
+    width: 40em;
+}
+
+.prix{
+    background-color: rgb(233,56,60);
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5em
+}
+
+.capacite p{
+    padding: 0.5em;
+    font-weight: 400;
+}
+
+.equipement{
+    margin-left: 4.4em;
+    margin-top: 2em;
+}
+
+.equipement1{
+    width: 45.6em;
+    margin-right: 2em;
+}
+
+.input{
+    margin-left: 10em;
+    margin-bottom: 1em;
+}
+
+.input label{
+    font-size: 1.2em;
+}
+
+.input1{
+    margin-left: 11.2em;
+
+}
+
+/* CONTACT */
+.contact{
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 1rem
+}
+
+/* ESTHETIQUE MAIL TEL */
+.contact p {
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 1em
+
+}
+
+/* ESTHETIQUE CONTACT */
+.cont p{
+    font-weight: 600;
+    margin-bottom: 0.5em; 
+    font-size: 1.5em
+}
+
+/* ESTHETIQUE MENTION LEGAL */
+.mention{
+    font-size: 1em
+}
+
