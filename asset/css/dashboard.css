@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p{
+    margin:0px
+}
+/* FOND GRIS */
+.fond{
+    background-color: rgb(246, 245, 245);
+}
+
+/* DISPLAY BETWEEN */
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COULEUR ROUGE */
+.color{
+    color: rgb(233, 56, 60);
+}
+
+/* COULEUR MARRON */
+.color1{
+    color: rgb(138, 93, 54);
+}
+
+/* DISPLAY */
+.display{
+    display: flex;
+}
+
+
+/* HEADER */
+
+/* IMAGE SAVOIE */
+.savoie{
+    margin: 1em;
+    margin-left : 2em;
+}
+
+/* BUTTON DECONNEXION */
+.button{
+    margin-top: 3em;
+    margin-right: 5em; 
+     
+}
+
+/* EXTHETIQUE BUTTON */
+.button button{
+    padding: 1em;
+    border-radius: 0px;
+    background-color: rgb(233,56,60);
+    color: white;
+    border: none 
+}
+
+/* FIN HEADER */
+
+/* TABLEAU */
+.table{
+    margin: 2em;
+    width: 104em;
+}
+
+/* MARGIN BUTTON AJOUTER */
+.margin{
+    margin-left: 2em;
+}
+
+/* BUTTON SUPPRIMER DETAILS MODIFIER */
+.action button{
+    padding: 3px;
+}
+
+/* CONTACT */
+.contact{
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 1rem
+}
+
+/* ESTHETIQUE CONTACT */
+.cont p{
+    font-weight: 600;
+    margin-bottom: 0.5em; 
+    font-size: 1.5em
+}
+
+/* ESTHETIQUE MENTION LEGAL */
+.mention{
+    font-size: 1em
+}

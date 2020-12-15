@@ -6,7 +6,7 @@ body{
 .fond{
     background-image: linear-gradient(to left, rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../image/montagne.png");
     background-size: cover;
-    padding-bottom: 46em;
+    padding-bottom: 16.5em;
 }
 
 .connexion{
@@ -14,7 +14,7 @@ body{
 }
 
 .formulaire{
-    margin-left: 40em;
+    margin-left: 42em;
 }
 h1{
     font-size: 3em;

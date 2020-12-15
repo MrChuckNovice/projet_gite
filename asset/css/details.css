@@ -134,7 +134,7 @@ p{
     width: 31.6rem;
 }
 
-/* EXTHETIQUE BUTTON RECHERCHER*/
+/* EXTHETIQUE BUTTON*/
 .carre button{
     padding: 2.17em;
     background-color: rgb(233,56,60);
@@ -143,11 +143,12 @@ p{
 
 }
 
+/* PADDING SUR LE FORMULAIRE */
 .padding{
     padding: 2em
 }
 
-
+/* BUTTON RESERVATION */
 .button1 button{
     padding: 1em;
     width: 21.1em;
@@ -158,12 +159,14 @@ p{
     color: white;
 }
 
+/* BLOC DESCRIPTION */
 .bloc{
     margin-left: 4.4em;
     margin-top: 2em;
     width: 101.2em;
 }
 
+/* TITRE */
 h2{
     text-align: center;
     color: rgb(233, 56, 60);
@@ -171,19 +174,23 @@ h2{
     margin-top: 0em;
 }
 
+/* PADDING DESCRIPTION */
 .description{
     padding: 2rem;
 }
 
+/* COULEUR DE LA DESCRIPTION */
 .description p{
     color: rgb(138, 93, 54);
 }
 
+/* CRITERE */
 .critere{
     margin-left: 2em;
     width: 40em;
 }
 
+/* PRIX */
 .prix{
     background-color: rgb(233,56,60);
     padding: 0.5em;
@@ -193,33 +200,38 @@ h2{
     font-size: 1.5em
 }
 
+/* CAPACITE */
 .capacite p{
     padding: 0.5em;
     font-weight: 400;
 }
 
+/* PLACEMENT EQUIPEMENT */
 .equipement{
     margin-left: 4.4em;
     margin-top: 2em;
 }
 
+/* EQUIMENT PLACEMENT BLOC */
 .equipement1{
     width: 45.6em;
     margin-right: 2em;
 }
 
+/* CHEACKBOX */
 .input{
     margin-left: 10em;
     margin-bottom: 1em;
 }
 
+/* CHEACKBOX TITRE */
 .input label{
     font-size: 1.2em;
 }
 
+/*  PLACEMENT CORRECT CHEACKBOX MACHINE A RACLETTE*/
 .input1{
     margin-left: 11.2em;
-
 }
 
 /* CONTACT */

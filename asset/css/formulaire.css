@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p{
+    margin:0px
+}
+/* FOND GRIS */
+.fond{
+    background-color: rgb(246, 245, 245);
+}
+
+/* DISPLAY BETWEEN */
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COULEUR ROUGE */
+.color{
+    color: rgb(233, 56, 60);
+}
+
+/* COULEUR MARRON */
+.color1{
+    color: rgb(138, 93, 54);
+}
+
+/* DISPLAY */
+.display{
+    display: flex;
+}
+
+
+/* HEADER */
+
+/* IMAGE SAVOIE */
+.savoie{
+    margin: 1em;
+    margin-left : 2em;
+}
+
+/* TITRE H2 */
+h2{
+    text-align: center;
+    color: rgb(233, 56, 60);
+    text-decoration: underline;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* CENTRER LES INPUT */
+.formulaire{
+    text-align: center;
+}
+
+/* CENTRER LES DISPLAY DES CHEACKBOX */
+.justify{
+    justify-content: center;
+}
+
+/* PLACEMENT DU FORMULAIRE */
+.placement{
+    width:40em ;
+    margin-left: 35em;
+    margin-top: 2em
+}
+
+/* ESTHETIQUE DES INPUT */
+.carre input{
+    width: 30em;
+    border: none;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* ESTHETIQUE DES LISTE DE SELECTION */
+.carre select{
+    width: 30em;
+    border: none;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* ESTHETIQUE DU TEXTAREA */
+.carre textarea{
+    width: 19.9em;
+    border: none;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* TITRE PHOTO */
+.photo label{
+    font-size: 1.5em;
+    margin-right: 1.2em;
+    font-weight: 600;
+}
+
+/* TITRE EQUIPEMENT */
+.titre{
+    font-size: 1.5em;
+    margin-right: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 3.52em;
+    margin-top: 0.5em;
+}
+
+/* MARGIN ENTRE LES CHEACKBOX */
+.color label{
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+/* PLACEMENT BUTTON FICHIER */
+.input input{
+    margin-top: 1.8em
+
+}
+
+/* BUTTON VALIDEZ */
+.button1 button{
+    padding: 0.5em;
+    width: 19em;
+    background-color: rgb(233,56,60);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* CONTACT */
+.contact{
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 1rem
+}
+
+/* ESTHETIQUE CONTACT */
+.cont p{
+    font-weight: 600;
+    margin-bottom: 0.5em; 
+    font-size: 1.5em
+}
+
+/* ESTHETIQUE MENTION LEGAL */
+.mention{
+    font-size: 1em
+}
