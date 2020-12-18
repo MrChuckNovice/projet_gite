@@ -149,3 +149,76 @@ h2{
 .mention{
     font-size: 1em
 }
+
+@media(max-width: 1551px){
+    .display{
+        display: block;
+        margin-left: 0.5em;
+    
+    }
+
+    .savoie img{
+        width: 60px;
+        height: 50px;
+    }
+
+    .savoies img{
+        height: 70px;
+        padding-top: 1em;
+        padding-left: 1em;
+    }
+
+    .placement{
+        margin-left: 1em;
+        width: 18em;
+    }
+    
+    .carre input{
+    width: 15em;
+    border: none;
+    padding: 0.3em;
+    margin-bottom: 1em;
+    }
+    
+    .carre select{
+    width: 15em;
+    border: none;
+    padding: 0.3em;
+    margin-bottom: 1em;
+    }
+    
+    .carre textarea{
+    width: 19.9em;
+    border: none;
+    padding: 1em;
+    margin-bottom: 1em;
+    }
+
+    .input input{
+        margin-top: 1em;
+        font-size: 0.7em;
+    }
+    
+    .photo label{
+    font-size: 0.9em;
+    margin-right: 1.2em;
+    }
+    
+    .titre{
+    font-size: 0.9em;
+    margin-left: 2em;
+    }
+    
+    .color input{
+    text-align: left;
+    }
+    
+    .textarea textarea{
+    width: 17em;
+    }
+    
+    .button1 button{
+    width: 12em;
+    }
+
+}

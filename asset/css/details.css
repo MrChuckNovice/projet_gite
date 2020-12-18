@@ -32,6 +32,10 @@ p{
     display: flex;
 }
 
+.displays{
+    display: flex;
+}
+
 
 /* HEADER */
 
@@ -261,3 +265,117 @@ h2{
     font-size: 1em
 }
 
+@media(max-width: 1551px){
+    .display{
+        display: block;
+        margin-left: 0.5em;
+    
+    }
+
+    .savoie img{
+        width: 60px;
+        height: 50px;
+    }
+
+    .savoies img{
+        width: 120px;
+        height: 50px;
+        padding-top: 1em;
+        padding-left: 2em;
+    }
+    
+    .button{
+    margin-top: 1em; 
+    margin-left: 1em; 
+    }
+
+    .margin{
+        margin-left: 0em;
+        margin-top: 1em
+    }
+
+    .chalet p{
+        font-size: 1.4em;
+    }
+
+    .personne p {
+        font-size : 1em;
+    }
+
+    .image img{
+        height: 245px;
+    }
+
+    .lieu img{
+        margin-left: 1em
+    }
+
+    .formulaire{
+        margin-left: 0px;
+    }
+
+    .padding{
+        padding: 1em;
+    }
+
+    .carre input{
+        padding: 1em;
+        border: none;
+        width: 15rem;
+    }
+    
+    .carre select{
+        width: 16.7rem;
+    }
+    
+    .carre button{
+        padding: 2.17em;
+    }
+
+    .button1 button{
+        width: 11.1em;
+    }
+
+    .bloc{
+        margin-top: 2em;
+        width: 19em;
+    }
+
+    .critere{
+        margin-left: 0em;
+        margin-top: 1em;
+        width: 19em;
+    }
+
+    .equipement{
+        margin-left: 0.6em;
+        margin-top: 2em;
+    }
+    
+    /* EQUIMENT PLACEMENT BLOC */
+    .equipement1{
+        margin-top: 1em;
+        width: 17em;
+        margin-right: 0em;
+    }
+    
+    /* CHEACKBOX */
+    .input{
+        margin-left: 0em;
+    }
+    
+    /* CHEACKBOX TITRE */
+    .input label{
+        font-size: 1.2em;
+    }
+    
+    /*  PLACEMENT CORRECT CHEACKBOX MACHINE A RACLETTE*/
+    .input1{
+        margin-left: 0em;
+    }
+
+
+
+
+
+}

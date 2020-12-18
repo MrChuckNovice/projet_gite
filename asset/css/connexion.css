@@ -45,3 +45,44 @@ button{
     font-size: 1em;
     font-weight: 600;
 }
+
+@media(max-width: 1551px){
+
+    h1{
+        font-size: 2em;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    .formulaire{
+        margin-left: 1em;
+    }
+
+    .input input{
+        padding: 1em;
+        width: 15em;
+    }
+    
+    .input label{
+        font-size: 1em;
+        color: white;
+        font-weight: 600;
+    }
+    
+    
+    button{
+        background-color: white;
+        padding: 1em;
+        width: 14.5em;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .fond{
+        padding-bottom: 7.8em;
+    }
+
+    .connexion{
+        padding-top: 2em
+    }
+}
