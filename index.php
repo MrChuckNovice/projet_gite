@@ -23,7 +23,9 @@
             </div>
             <!-- BUTTON ADMIN -->
             <div class="button">
-                <button  type="button">Connexion Administrateur</button>
+                <a href="connexion.php">
+                    <button type="button">Connexion Administrateur</button>
+                </a>             
             </div>
         </div>
         <!-- FIN PREMIER BLOC -->
@@ -282,7 +284,9 @@
                                <p> 10 personnes - Chalet</p>
                             </div >
                             <div class="chalet color1">
-                               <p>Chalet Des Etoiles</p> 
+                            <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a>
                             </div>
                             <!-- ADRESSE -->
                             <div class="displays lieux">
@@ -314,7 +318,9 @@
                               <p> 10 personnes - Chalet</p>
                            </div >
                            <div class="chalet color1">
-                              <p>Chalet Des Etoiles</p> 
+                           <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a>
                            </div>
                            <!-- ADRESSE -->
                            <div class="displays lieux">
@@ -346,7 +352,9 @@
                                <p> 10 personnes - Chalet</p>
                             </div >
                             <div class="chalet color1">
-                               <p>Chalet Des Etoiles</p> 
+                            <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a> 
                             </div>
                             <!-- ADRESSE -->
                             <div class="displays lieux">
@@ -382,7 +390,9 @@
                                <p> 10 personnes - Chalet</p>
                             </div >
                             <div class="chalet color1">
-                               <p>Chalet Des Etoiles</p> 
+                            <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a>
                             </div>
                             <!-- ADRESSE -->
                             <div class="displays lieux">
@@ -414,7 +424,9 @@
                               <p> 10 personnes - Chalet</p>
                            </div >
                            <div class="chalet color1">
-                              <p>Chalet Des Etoiles</p> 
+                           <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a> 
                            </div>
                            <!-- ADRESSE -->
                            <div class="displays lieux">
@@ -446,7 +458,9 @@
                                <p> 10 personnes - Chalet</p>
                             </div >
                             <div class="chalet color1">
-                               <p>Chalet Des Etoiles</p> 
+                            <a href="details.php">
+                            <p>Chalet Des Etoiles</p>
+                            </a> 
                             </div>
                             <!-- ADRESSE -->
                             <div class="displays lieux">

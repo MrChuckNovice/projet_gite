@@ -32,7 +32,9 @@
 <div>
     <!-- BUTTON RETOUR -->
     <div class="button">
-        <button  type="button">Retour</button>
+        <a href="index.php">
+        <button  type="button">Retour</button>    
+        </a>
     </div>
     <!-- TITRE ET ADRESSE -->
     <div class="margin">

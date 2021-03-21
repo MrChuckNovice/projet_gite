@@ -24,7 +24,9 @@
                 <label for="password">Mot de passe</label> <br>
                 <input type="password" class="form-control" name="u_password" id="u_password">
             </div>
-             <button  type="submit">Connexion</button>   
+            <a href="dashboard.html"></a>
+                <button  type="submit">Connexion</button>   
+            </a>
         </form>
     </div>
 </div>

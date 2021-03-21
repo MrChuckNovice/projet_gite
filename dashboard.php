@@ -24,14 +24,18 @@
             </div>
             <!-- BUTTON ADMIN -->
             <div class="button">
+                <a href="index.php">
                 <button  type="button">Deconnexion</button>
+                </a>
             </div>
         </div>
         <!-- FIN PREMIER BLOC -->
     </header>
     <!-- BOUTTON AJOUTER -->
     <div class="button margin">
-        <button  type="button">Ajouter</button>
+        <a href="formulaire.php">
+            <button  type="button">Ajouter</button>
+        </a>
     </div>
     <!-- TABLEAU -->
     <table class="table">
